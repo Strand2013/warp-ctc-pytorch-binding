@@ -1,5 +1,5 @@
 ## PyTorch binding for WarpCTC
-- Current Warp ctc only have tensorflow binding,and other repository can not build on mac,so this is the pytorch-binding which can be built at mac.
+- Current Warp ctc only have tensorflow binding,and other repository can not build on mac,so this is the pytorch-binding which can be built at macos and Centos.
 
 ### This repository can build ctc for pytorch, which modified from https://github.com/baidu-research/warp-ctc.git and https://github.com/SeanNaren/warp-ctc.git
 ### The way to build warp ctc
