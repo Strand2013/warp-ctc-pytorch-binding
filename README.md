@@ -1,3 +1,4 @@
+## This repository can build ctc for pytoch, which modified from https://github.com/baidu-research/warp-ctc.git and https://github.com/SeanNaren/warp-ctc.git
 ## The way to build warp ctc
 ```
 cd warp-ctc-pytorch-binding
