@@ -1,5 +1,8 @@
-## This repository can build ctc for pytoch, which modified from https://github.com/baidu-research/warp-ctc.git and https://github.com/SeanNaren/warp-ctc.git
-## The way to build warp ctc
+## PyTorch binding for WarpCTC
+- Current Warp ctc only have tensorflow binding,and other repository can not build on mac,so this is the pytorch-binding which can be built at mac.
+
+### This repository can build ctc for pytorch, which modified from https://github.com/baidu-research/warp-ctc.git and https://github.com/SeanNaren/warp-ctc.git
+### The way to build warp ctc
 ```
 cd warp-ctc-pytorch-binding
 make build; cd build
@@ -8,7 +11,7 @@ make
 cd pytorch-binding
 python setup.py install
 ```
-## The way to test
+### The way to test
 ```python
 import torch
 from torch.autograd import Variable
